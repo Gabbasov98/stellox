@@ -7,6 +7,9 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/fancybox.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Главная</title>
 </head>
@@ -1839,19 +1842,26 @@
                 </div>
             </div>
 
+            <div class="ceo-content">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="body-text">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer</p>
+                        </div>
+                        <div class="footer-top__nav">
+                            <button class="footer-top__btn m-link subtitle1">
+                                Показать полностью
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
         </main>
         <footer class="footer">
             <div class="container">
-                <div class="footer-top">
-                    <div class="body-text">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer</p>
-                    </div>
-                    <div class="footer-top__nav">
-                        <button class="footer-top__btn m-link subtitle1">
-                            Показать полностью
-                        </button>
-                    </div>
-                </div>
                 <div class="footer-bottom">
                     <div class="footer-info">
                         <a href="" class="footer__logo">
@@ -1947,10 +1957,639 @@
         </a>
     </div>
 
+    <div class="modal usability-modal" id="usabilityModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top _flex-between">
+                <div class="h5">
+                    Применимость для 6020-1071VK-SX
+                </div>
+                <button class="close-btn _close-modal">
+                    <svg width="24" height="24">
+                        <use xlink:href="img/sprite.svg#burgerIcon2"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="usability-modal__filter">
+                <div class="m-select">
+                    <select class="js-select">
+                        <option>NISSAN</option>
+                        <option>BMW</option>
+                        <option>CITROËN/PEUGEOT</option>
+                        <option>FORD</option>
+                        <option>GENERAL MOTORS</option>
+                    </select>
+                </div>
+                <div class="m-search">
+                    <input type="text" placeholder="Поиск">
+                    <button type="button" class="m-search__btn _view1">
+                        <svg width="20" height="20">
+                            <use xlink:href="img/sprite.svg#searchIcon"></use>
+                        </svg>
+                    </button>
+                    <button type="button" class="_clear-search m-search__btn _view2">
+                        <svg width="20" height="20">
+                            <use xlink:href="img/sprite.svg#burgerIcon2"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="usability-table m-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="m-table__th">
+                                    <div class="subtitle2">
+                                        Транспортное средство
+                                    </div>
+                                    <button class="sort-btn">
+                                        <svg class="_view1" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon"></use>
+                                        </svg>
+                                        <svg class="_view2" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon2"></use>
+                                        </svg>
+                                    </button>
+
+                                </div>
+                            </th>
+                            <th>
+                                <div class="m-table__th">
+                                    <div class="subtitle2">
+                                        Год выпуска
+                                    </div>
+                                    <button class="sort-btn">
+                                        <svg class="_view1" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon"></use>
+                                        </svg>
+                                        <svg class="_view2" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon2"></use>
+                                        </svg>
+                                    </button>
+
+                                </div>
+                            </th>
+                            <th>
+                                <div class="m-table__th">
+                                    <div class="subtitle2">
+                                        кВт
+                                    </div>
+                                    <button class="sort-btn">
+                                        <svg class="_view1" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon"></use>
+                                        </svg>
+                                        <svg class="_view2" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon2"></use>
+                                        </svg>
+                                    </button>
+
+                                </div>
+                            </th>
+                            <th>
+                                <div class="m-table__th">
+                                    <div class="subtitle2">
+                                        л.с.
+                                    </div>
+                                    <button class="sort-btn">
+                                        <svg class="_view1" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon"></use>
+                                        </svg>
+                                        <svg class="_view2" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon2"></use>
+                                        </svg>
+                                    </button>
+
+                                </div>
+                            </th>
+                            <th>
+                                <div class="m-table__th">
+                                    <div class="subtitle2">
+                                        см³
+                                    </div>
+                                    <button class="sort-btn">
+                                        <svg class="_view1" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon"></use>
+                                        </svg>
+                                        <svg class="_view2" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon2"></use>
+                                        </svg>
+                                    </button>
+
+                                </div>
+                            </th>
+                            <th>
+                                <div class="m-table__th">
+                                    <div class="subtitle2">
+                                        Дизайн
+                                    </div>
+                                    <button class="sort-btn">
+                                        <svg class="_view1" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon"></use>
+                                        </svg>
+                                        <svg class="_view2" width="12" height="12">
+                                            <use xlink:href="img/sprite.svg#sortIcon2"></use>
+                                        </svg>
+                                    </button>
+
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="body-text2">
+                                    Q7 (4LB) 3.0 TDI quattro
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    <span class="usability-table__date">05.2010</span>-
+                                    <span class="usability-table__date">08.2015</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    180
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    245
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    2967
+                                </div>
+                            </td>
+                            <td>
+                                <div class="body-text2">
+                                    SUV
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal usability-modal" id="usabilityModal2">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top _flex-between">
+                <div class="h5">
+                    Применимость для 6020-1071VK-SX
+                </div>
+                <button class="close-btn _close-modal">
+                    <svg width="24" height="24">
+                        <use xlink:href="img/sprite.svg#burgerIcon2"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="usability-car">
+                <div class="usability-car__img">
+                    <img src="img/car.webp" alt="">
+                </div>
+                <div class="usability-car__content">
+                    <div class="usability-car__items">
+                        <div class="usability-car__item body-text2">NISSAN</div>
+                        <div class="usability-car__item body-text2">QASHQAI / QASHQAI +2 I (J10, NJ10, JJ10E) 1.5 dCi</div>
+                    </div>
+                    <div class="usability-car__date body-text2 black64-text">
+                        01.2010 - 12.2013
+                    </div>
+                    <div class="usability-car__nav">
+                        <a href="" class="usability-car__link m-btn m-btn-blue-outline">
+                            <span>Перейти в TecDoc</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="usability-info">
+                <div class="usability-info__col">
+                    <div class="main-info">
+                        <div class="subtitle1">
+                            Подробнее о ТС
+                        </div>
+                        <div class="main-info__items">
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Тип автомобиля</div>
+                                <div class="main-info__item-desc body-text2">NISSAN QASHQAI / QASHQAI +2 I (J10, NJ10, JJ10E) 1.5 dCi</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Год выпуска</div>
+                                <div class="main-info__item-desc body-text2">01.2010 - 12.2013</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Мощность</div>
+                                <div class="main-info__item-desc body-text2">81 кВт / 110 л.с.</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Рабочий объём двигателя</div>
+                                <div class="main-info__item-desc body-text2">1461 см³/1.5 л</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Цилиндры</div>
+                                <div class="main-info__item-desc body-text2">4</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Клапаны</div>
+                                <div class="main-info__item-desc body-text2">2</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Тип платформы</div>
+                                <div class="main-info__item-desc body-text2">SUV</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Тип привода</div>
+                                <div class="main-info__item-desc body-text2">Привод на передние колеса</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Тип двигателя</div>
+                                <div class="main-info__item-desc body-text2">Дизель</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Коды двигателей</div>
+                                <div class="main-info__item-desc body-text2">K9K 430</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Топливо</div>
+                                <div class="main-info__item-desc body-text2">Дизель</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Подготовка топлива</div>
+                                <div class="main-info__item-desc body-text2">Непосредственный впрыск</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="usability-info__col">
+                    <div class="main-info">
+                        <div class="subtitle1">
+                            Критерии артикула
+                        </div>
+                        <div class="main-info__items">
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Ø фаски</div>
+                                <div class="main-info__item-desc body-text2">12,7 мм</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Сторона установки</div>
+                                <div class="main-info__item-desc body-text2">передний мост</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Тип тормозного диска</div>
+                                <div class="main-info__item-desc body-text2">вентилируемый</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Толщина тормозного диска</div>
+                                <div class="main-info__item-desc body-text2">26 мм</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Количество отверстий</div>
+                                <div class="main-info__item-desc body-text2">5</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">мин. толщина</div>
+                                <div class="main-info__item-desc body-text2">24 мм</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Центрирующий диаметр</div>
+                                <div class="main-info__item-desc body-text2">68 мм</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Внутренний диаметр</div>
+                                <div class="main-info__item-desc body-text2">146,5 мм</div>
+                            </div>
+                            <div class="main-info__item">
+                                <div class="main-info__item-title body-text2">Внешний диаметр</div>
+                                <div class="main-info__item-desc body-text2">296 мм</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="js/jquery.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/gsap.min.js"></script>
     <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
     <script src="js/main.min.js"></script>
 
 </body>
