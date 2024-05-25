@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/fancybox.css">
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036"></script>
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Каталог</title>
+    <title>Где купить</title>
 </head>
 
 
@@ -1372,952 +1372,466 @@
         </header>
         <main class="content">
 
-            <div class="mob-catalog">
-                <div class="container">
-                    <ul class="breadcrumbs">
-                        <li><a href="">Главная</a></li>
-                        <li><a>Каталог</a></li>
-                    </ul>
-                    <h1 class="h2">
-                        Каталог
-                    </h1>
-                </div>
-                <div class="catalog-menu _tabs-parent">
-                    <div class="container">
-                        <div class="catalog-menu__inner">
-                            <div class="catalog-menu__col">
-                                <div class="catalog-menu__tabs">
-                                    <div class="catalog-menu__tab _tab _active" data-tab="_tab1">
-                                        <svg class="catalog-menu__tab-icon" width="24" height="24">
-                                            <use xlink:href="img/sprite.svg#carIcon"></use>
-                                        </svg>
-                                        <span class="body-text2">Легковая программа</span>
-                                        <svg class="catalog-menu__tab-arrow" width="18" height="18">
-                                            <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                        </svg>
+            <div class="where-buy">
+                <div class="where-buy__col">
+                    <div class="where-buy__top">
+                        <ul class="breadcrumbs">
+                            <li><a href="">Главная</a></li>
+                            <li><a>Где купить</a></li>
+                        </ul>
+                        <div class="where-buy__filter">
+                            <div class="country-select">
+                                <div class="country-select__show">
+                                    <div class="country-select__current body-text2">
+                                        Выберите страну
                                     </div>
-                                    <div class="catalog-menu__tab _tab" data-tab="_tab2">
-                                        <svg class="catalog-menu__tab-icon" width="24" height="24">
-                                            <use xlink:href="img/sprite.svg#carIcon2"></use>
-                                        </svg>
-                                        <span class="body-text2">Грузовая программа</span>
-                                        <svg class="catalog-menu__tab-arrow" width="18" height="18">
-                                            <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                        </svg>
+                                </div>
+                                <div class="country-select__dropdown">
+                                    <div class="filter-select__search">
+                                        <input type="text" placeholder="Поиск">
+                                        <img src="img/search-icon.svg" alt="">
+                                    </div>
+                                    <div class="country-select__items">
+                                        <div data-title="Все страны" class="country-item">
+
+                                            <span class="body-text">Все страны</span>
+                                        </div>
+
+                                        <div data-title="Алжир" class="country-item">
+
+                                            <img src="img/algeria.svg" alt="">
+
+                                            <span class="body-text">Алжир</span>
+                                        </div>
+
+                                        <div data-title="Албания" class="country-item">
+
+                                            <img src="img/albania.svg" alt="">
+
+                                            <span class="body-text">Албания</span>
+                                        </div>
+
+                                        <div data-title="Беларусь" class="country-item">
+
+                                            <img src="img/belarus.svg" alt="">
+
+                                            <span class="body-text">Беларусь</span>
+                                        </div>
+
+                                        <div data-title="Болгария" class="country-item">
+
+                                            <img src="img/bulgaria.svg" alt="">
+
+                                            <span class="body-text">Болгария</span>
+                                        </div>
+
+                                        <div data-title="Босния и Герцеговина" class="country-item">
+
+                                            <img src="img/bh.svg" alt="">
+
+                                            <span class="body-text">Босния и Герцеговина</span>
+                                        </div>
+
+                                        <div data-title="Германия" class="country-item">
+
+                                            <img src="img/ger.svg" alt="">
+
+                                            <span class="body-text">Германия</span>
+                                        </div>
+
+                                        <div data-title="Греция" class="country-item">
+
+                                            <img src="img/gre.svg" alt="">
+
+                                            <span class="body-text">Греция</span>
+                                        </div>
+
+                                        <div data-title="Казахстан" class="country-item">
+
+                                            <img src="img/kaz.svg" alt="">
+
+                                            <span class="body-text">Казахстан</span>
+                                        </div>
+
+                                        <div data-title="Кипр" class="country-item">
+
+                                            <img src="img/kip.svg" alt="">
+
+                                            <span class="body-text">Кипр</span>
+                                        </div>
+
+                                        <div data-title="Косово" class="country-item">
+
+                                            <img src="img/kos.svg" alt="">
+
+                                            <span class="body-text">Косово</span>
+                                        </div>
+
+                                        <div data-title="Ливия" class="country-item">
+
+                                            <img src="img/liv.svg" alt="">
+
+                                            <span class="body-text">Ливия</span>
+                                        </div>
+
+                                        <div data-title="Литва" class="country-item">
+
+                                            <img src="img/lit.svg" alt="">
+
+                                            <span class="body-text">Литва</span>
+                                        </div>
+
+                                        <div data-title="Македония" class="country-item">
+
+                                            <img src="img/mak.svg" alt="">
+
+                                            <span class="body-text">Македония</span>
+                                        </div>
+
+                                        <div data-title="Молдова" class="country-item">
+
+                                            <img src="img/mol.svg" alt="">
+
+                                            <span class="body-text">Молдова</span>
+                                        </div>
+
+                                        <div data-title="Польша" class="country-item">
+
+                                            <img src="img/pol.svg" alt="">
+
+                                            <span class="body-text">Польша</span>
+                                        </div>
+
+                                        <div data-title="Россия" class="country-item">
+
+                                            <img src="img/rus.svg" alt="">
+
+                                            <span class="body-text">Россия</span>
+                                        </div>
+
+                                        <div data-title="Сербия" class="country-item">
+
+                                            <img src="img/ser.svg" alt="">
+
+                                            <span class="body-text">Сербия</span>
+                                        </div>
+
+                                        <div data-title="Украина" class="country-item">
+
+                                            <img src="img/ukr.svg" alt="">
+
+                                            <span class="body-text">Украина</span>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
-                            <div class="catalog-menu__col2">
-                                <div class="tab-content _tab1 _active">
-                                    <div class="catalog-menu__items">
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Рулевое управление
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Рычаги подвески</a></li>
-                                                    <li><a href="">Тяги рулевые</a></li>
-                                                    <li><a href="">Наконечники рулевых тяг</a></li>
-                                                    <li><a href="">Шаровые опоры</a></li>
-                                                    <li><a href="">Рулевые рейки</a></li>
-                                                    <li><a href="">Насосы гидроусилителя руля</a></li>
-                                                    <li><a href="">Комплекты пыльников и отбойников</a></li>
-                                                    <li><a href="">Пыльники рейки</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
+                            <button class="where-buy__filter-btn m-btn m-btn-blue-outline">
+                                <svg width="18" height="19">
+                                    <use xlink:href="img/sprite.svg#filterIcon"></use>
+                                </svg>
+                                <span>Фильтры</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="where-buy__items">
+                        <div data-id="0" data-title="TEXCO" class="office-card ">
+                            <div class="office-card__top office-card__grid">
+                                <div class="office-card__info">
+                                    <div class="office-card__title">
+                                        <img src="img/office-icon.svg" alt="">
+                                        <span class="subtitle1">Главный офис</span>
+                                    </div>
+                                    <div class="office-card__title2 h4">
+                                        TEXCO
+                                    </div>
+                                </div>
+                                <div class="office-card__logo">
+                                    <img src="img/office-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="office-card__bottom office-card__grid">
+                                <div class="office-card__items">
+                                    <div class="office-card__item">
+                                        <img src="img/marker.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <span class="body-text">United Arab Emirates</span>
+                                            <span class="body-text">Jafza view 18-19 Downtown Jebel Ali, Dubai </span>
                                         </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img2.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Подвеска
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Пружины подвески</a></li>
-                                                    <li><a href="">Амортизаторы подвески</a></li>
-                                                    <li><a href="">Рессоры подвески</a></li>
-                                                    <li><a href="">Пневмоподушки подвески</a></li>
-                                                    <li><a href="">Втулки подвески</a></li>
-                                                    <li><a href="">Сайлентблоки подвески</a></li>
-                                                    <li><a href="">Стойки стабилизаторов</a></li>
-                                                    <li><a href="">Болты и элементы крепления подвески</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/phone.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="tel:+971-(04)-5064590" class="subtitle1">+971-(04)-5064590</a>
                                         </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img3.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Тормозная система
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Диски тормозные</a></li>
-                                                    <li><a href="">Колодки тормозные дисковые</a></li>
-                                                    <li><a href="">Барабаны тормозные</a></li>
-                                                    <li><a href="">Колодки тормозные барабанные</a></li>
-                                                    <li><a href="">Суппорты дискового тормоза</a></li>
-                                                    <li><a href="">Тросики ручного тормоза</a></li>
-                                                    <li><a href="">Шланги тормозные</a></li>
-                                                    <li><a href="">Ремкомплекты направляющих суппорта</a></li>
-                                                    <li><a href="">Ремкомплекты дискового тормоза</a></li>
-                                                    <li><a href="">Ремкомплекты крепления тормозных колодок</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/mail.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="mailto:info@texco.ae" class="body-text">info@texco.ae</a>
                                         </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img4.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Система охлаждения и кондиционирования
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Радиаторы системы охлаждения</a></li>
-                                                    <li><a href="">Радиаторы печки</a></li>
-                                                    <li><a href="">Радиаторы кондиционера</a></li>
-                                                    <li><a href="">Помпы системы охлаждения</a></li>
-                                                    <li><a href="">Термостаты</a></li>
-                                                    <li><a href="">Вентиляторы охлаждения</a></li>
-                                                    <li><a href="">Вентиляторы печки</a></li>
-                                                    <li><a href="">Компрессоры кондиционера и комплектующие</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img5.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Фильтры
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Фильтры воздушные</a></li>
-                                                    <li><a href="">Фильтры салона</a></li>
-                                                    <li><a href="">Фильтры масляные</a></li>
-                                                    <li><a href="">Фильтры топливные</a></li>
-                                                    <li><a href="">Фильтры АКПП</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img6.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Электрика и датчики
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Стартеры</a></li>
-                                                    <li><a href="">Генераторы</a></li>
-                                                    <li><a href="">Датчики положения к/в и р/в</a></li>
-                                                    <li><a href="">Датчики температуры</a></li>
-                                                    <li><a href="">Датчики давления масла</a></li>
-                                                    <li><a href="">Датчики ABS</a></li>
-                                                    <li><a href="">Датчики стоп-сигнала и передачи</a></li>
-                                                    <li><a href="">Подшипники стартера и генератора</a></li>
-                                                    <li><a href="">Втягивающее реле</a></li>
-                                                    <li><a href="">Бендиксы стартера</a></li>
-                                                    <li><a href="">Предохранители</a></li>
-                                                    <li><a href="">Реле регуляторы</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img7.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Трансмиссия
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Комплекты сцепления</a></li>
-                                                    <li><a href="">Подшипники выжимные сцепл.</a></li>
-                                                    <li><a href="">Диски сцепления</a></li>
-                                                    <li><a href="">Цилиндры сцепления</a></li>
-                                                    <li><a href="">Ремкомплекты внутреннего ШРУСа</a></li>
-                                                    <li><a href="">Ремкомплекты наружного ШРУСа</a></li>
-                                                    <li><a href="">Валы приводные</a></li>
-                                                    <li><a href="">Подушки крепления КПП</a></li>
-                                                    <li><a href="">Корзины сцепления</a></li>
-                                                    <li><a href="">Тросики КПП</a></li>
-                                                    <li><a href="">Тросики сцепления</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img8.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Прокладки и уплотнения
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Сальники</a></li>
-                                                    <li><a href="">Прокладки ГБЦ</a></li>
-                                                    <li><a href="">Прокладки клапанной крышки</a></li>
-                                                    <li><a href="">Прокладки впуск.и вып.коллектора</a></li>
-                                                    <li><a href="">Прокладки ДВС</a></li>
-                                                    <li><a href="">Прокладки масляного поддона</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img9.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Двигатель
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Подушки крепления двигателя и КПП</a></li>
-                                                    <li><a href="">Распылители топливных форсунок</a></li>
-                                                    <li><a href="">Турбокомпрессоры</a></li>
-                                                    <li><a href="">Шкивы коленвала</a></li>
-                                                    <li><a href="">Гидрокомпенсаторы</a></li>
-                                                    <li><a href="">Головки блока цилиндров</a></li>
-                                                    <li><a href="">Насосы масляные</a></li>
-                                                    <li><a href="">Клапаны ГРМ</a></li>
-                                                    <li><a href="">Фазорегуляторы распредвала</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img10.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Ступицы и подшипники ступичные
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Ступицы</a></li>
-                                                    <li><a href="">Подшипники ступиц</a></li>
-                                                    <li><a href="">Гайки колесные</a></li>
-                                                    <li><a href="">Болты колесные</a></li>
-                                                    <li><a href="">Ремкомплекты подшипника ступицы</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img11.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Система зажигания
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Свечи зажигания</a></li>
-                                                    <li><a href="">Свечи накаливания</a></li>
-                                                    <li><a href="">Катушки зажигания</a></li>
-                                                    <li><a href="">Комплекты высоковольтных проводов</a></li>
-                                                    <li><a href="">Замки зажигания</a></li>
-                                                    <li><a href="">Контактные группы замка зажигания</a></li>
-                                                    <li><a href="">Модули зажигания</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img12.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Система ГРМ
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Ремни приводные</a></li>
-                                                    <li><a href="">Ролики и натяжители ремня</a></li>
-                                                    <li><a href="">Натяжители ГРМ</a></li>
-                                                    <li><a href="">Успокоители ГРМ</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img13.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Щетки стеклоочистителя
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img14.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Лампы
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/site.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="" class="body-text">www.texco.ae</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-content _tab2">
-                                    <div class="catalog-menu__items">
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img2.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Подвеска
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
+                                <button class="office-card__btn more-btn more-btn--blue">
+                                    <span class="subtitle2">Показать на карте</span>
+                                    <svg width="12" height="12">
+                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
 
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Пневмоподушки подвески</a></li>
-                                                    <li><a href="">Рессоры подвески</a></li>
-                                                    <li><a href="">Листы рессор</a></li>
-                                                    <li><a href="">Стремянки рессор</a></li>
-                                                    <li><a href="">Ремкомплекты пальцев рессор</a></li>
-                                                    <li><a href="">Подушки рессор</a></li>
-                                                    <li><a href="">Отбойники рессоры</a></li>
-                                                    <li><a href="">Серьги рессоры</a></li>
-                                                    <li><a href="">Стойки стабилизатора</a></li>
-                                                    <li><a href="">Тяги реактивные</a></li>
-                                                    <li><a href="">Втулки подвески</a></li>
-                                                    <li><a href="">Сайлентблоки подвески</a></li>
-                                                    <li><a href="">Амортизаторы подвески</a></li>
-                                                    <li><a href="">Болты подвески</a></li>
-                                                    <li><a href="">Кронштейны подвески</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
+                        <div data-id="1" data-title="SP-Europe" class="office-card ">
+                            <div class="office-card__top office-card__grid">
+                                <div class="office-card__info">
+                                    <div class="office-card__title">
+                                        <img src="img/office-icon2.svg" alt="">
+                                        <span class="subtitle1">Дочерний офис</span>
+                                    </div>
+                                    <div class="office-card__title2 h4">
+                                        SP-Europe
+                                    </div>
+                                </div>
+                                <div class="office-card__logo">
+                                    <img src="img/office-img2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="office-card__bottom office-card__grid">
+                                <div class="office-card__items">
+                                    <div class="office-card__item">
+                                        <img src="img/marker.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <span class="body-text">Польша</span>
+                                            <span class="body-text">02-495, Мазовецкое воеводство, Варшава, ул. Героев Варшавы, ном. 23, лок. 2</span>
                                         </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Рулевое управление
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Тяги рулевые</a></li>
-                                                    <li><a href="">Наконечники рулевых тяг</a></li>
-                                                    <li><a href="">Шкворни и ремкомплекты шкворней</a></li>
-                                                    <li><a href="">Насосы ГУР</a></li>
-                                                    <li><a href="">Валы рулевые</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/phone.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="tel:+48 222 565 324" class="subtitle1">+48 222 565 324</a>
                                         </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img3.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Тормозная система
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Диски тормозные</a></li>
-                                                    <li><a href="">Колодки тормозные дисковые</a></li>
-                                                    <li><a href="">Барабаны тормозные</a></li>
-                                                    <li><a href="">Колодки тормозные барабанные</a></li>
-                                                    <li><a href="">Накладки тормозные,комплекты</a></li>
-                                                    <li><a href="">Краны пневмосистемы</a></li>
-                                                    <li><a href="">Энергоаккумуляторы тормозные</a></li>
-                                                    <li><a href="">Ремкомплекты тормозного вала</a></li>
-                                                    <li><a href="">Цилиндры тормозные</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/mail.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="mailto:info@speurope.pl" class="body-text">info@speurope.pl</a>
                                         </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img4.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Система охлаждения и кондиционирования
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Радиаторы</a></li>
-                                                    <li><a href="">Помпы системы охлаждения</a></li>
-                                                    <li><a href="">Вискомуфты, Вентиляторы</a></li>
-                                                    <li><a href="">Охладители воздуха промежуточные</a></li>
-                                                    <li><a href="">Компрессоры кондиционера</a></li>
-                                                    <li><a href="">Патрубки системы охлаждения</a></li>
-                                                    <li><a href="">Бачки расширительные</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img5.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Фильтры
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Фильтры топливные</a></li>
-                                                    <li><a href="">Фильтры воздушные</a></li>
-                                                    <li><a href="">Фильтры масляные</a></li>
-                                                    <li><a href="">Фильтры салона</a></li>
-                                                    <li><a href="">Фильтры осушителя тормозной системы</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img6.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Электрика и датчики
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Кабели</a></li>
-                                                    <li><a href="">Стартеры</a></li>
-                                                    <li><a href="">Генераторы</a></li>
-                                                    <li><a href="">Датчики ABS</a></li>
-                                                    <li><a href="">Предохранители</a></li>
-                                                    <li><a href="">Датчики давления воздуха</a></li>
-                                                    <li><a href="">Датчики уровня пневмоподвески</a></li>
-                                                    <li><a href="">Датчики давления масла</a></li>
-                                                    <li><a href="">Выключатели механические</a></li>
-                                                    <li><a href="">Реле регуляторы</a></li>
-                                                    <li><a href="">Разъемы электропроводки</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img7.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Трансмиссия
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Комплекты сцепления</a></li>
-                                                    <li><a href="">Диски сцепления</a></li>
-                                                    <li><a href="">Пневмогидроусилители сцепления</a></li>
-                                                    <li><a href="">Подшипники выжимные сцепления</a></li>
-                                                    <li><a href="">Корзины сцепления</a></li>
-                                                    <li><a href="">Крестовины кардана</a></li>
-                                                    <li><a href="">Цилиндры сцепления</a></li>
-                                                    <li><a href="">Маховики</a></li>
-                                                    <li><a href="">Ремкомплекты КПП</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img8.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Прокладки и уплотнения
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Сальники</a></li>
-                                                    <li><a href="">Комплекты прокладок двигателя</a></li>
-                                                    <li><a href="">Прокладки ГБЦ</a></li>
-                                                    <li><a href="">Прокладки картера двигателя</a></li>
-                                                    <li><a href="">Прокладки ДВС</a></li>
-                                                    <li><a href="">Прокладки клапанной крышки</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img10.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Ступицы и детали колёс
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Ремкомплекты ступицы</a></li>
-                                                    <li><a href="">Ступицы</a></li>
-                                                    <li><a href="">Подшипники ступиц</a></li>
-                                                    <li><a href="">Гайки колесные</a></li>
-                                                    <li><a href="">Болты колесные</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img9.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Двигатель
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Турбокомпрессоры</a></li>
-                                                    <li><a href="">Распылители</a></li>
-                                                    <li><a href="">Компрессоры</a></li>
-                                                    <li><a href="">Клапаны ГРМ</a></li>
-                                                    <li><a href="">Распредвалы двигателя</a></li>
-                                                    <li><a href="">Насосы масляные</a></li>
-                                                    <li><a href="">Подушки крепления двигателя</a></li>
-                                                    <li><a href="">Поддон картера ДВС</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img13.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Щетки стеклоочистителя
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img15.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Детали кузова
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
-                                            <div class="catalog-group__bottom">
-                                                <ul class="catalog-group__links">
-                                                    <li><a href="">Крылья кабины</a></li>
-                                                    <li><a href="">Фары</a></li>
-                                                    <li><a href="">Фонари габаритные</a></li>
-                                                    <li><a href="">Фары противотуманные</a></li>
-                                                    <li><a href="">Стекла фар</a></li>
-                                                    <li><a href="">Указатели поворотов</a></li>
-                                                    <li><a href="">Панели кузова</a></li>
-                                                    <li><a href="">Зеркала в сборе</a></li>
-                                                    <li><a href="">Стекла зеркал</a></li>
-                                                    <li><a href="">Корпуса зеркал</a></li>
-                                                    <li><a href="">Бамперы</a></li>
-                                                    <li><a href="">Части бампера</a></li>
-                                                    <li><a href="">Крепления крыльев</a></li>
-                                                    <li><a href="">Кронштейны крыльев</a></li>
-                                                </ul>
-                                                <button class="more-btn">
-                                                    <span class="subtitle2 _view1">Показать еще</span>
-                                                    <span class="subtitle2 _view2">Скрыть</span>
-                                                    <svg width="12" height="12">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <div class="catalog-group">
-                                            <div class="catalog-group__top">
-                                                <a href="" class="catalog-group__icon">
-                                                    <img src="img/catalog-img14.webp" alt="">
-                                                </a>
-                                                <a href="" class="catalog-group__title subtitle1">
-                                                    Лампы
-                                                </a>
-                                                <button class="catalog-group__btn">
-                                                    <svg width="20" height="20">
-                                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/site.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="" class="body-text">www.speautoparts.com</a>
                                         </div>
                                     </div>
                                 </div>
+                                <button class="office-card__btn more-btn more-btn--blue">
+                                    <span class="subtitle2">Показать на карте</span>
+                                    <svg width="12" height="12">
+                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div data-id="2" data-title="AUTO3N" class="office-card _gray">
+                            <div class="office-card__top office-card__grid">
+                                <div class="office-card__info">
+                                    <div class="office-card__title">
+                                        <img src="img/office-icon3.svg" alt="">
+                                        <span class="subtitle1">Дистрибьютор</span>
+                                    </div>
+                                    <div class="office-card__title2 h4">
+                                        AUTO3N
+                                    </div>
+                                </div>
+                                <div class="office-card__logo">
+                                    <img src="img/office-img3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="office-card__bottom office-card__grid">
+                                <div class="office-card__items">
+                                    <div class="office-card__item">
+                                        <img src="img/marker.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <span class="body-text">Россия</span>
+                                            <span class="body-text">Россия Московская обл., Мытищинский р-он, МКАД 86 км, вл. 13а, стр. 1</span>
+                                        </div>
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/phone.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="tel:+74952562200" class="subtitle1">+74952562200</a>
+                                        </div>
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/mail.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="mailto:sale@auto3n.ru" class="body-text">sale@auto3n.ru</a>
+                                        </div>
+                                    </div>
+                                    <div class="office-card__item">
+                                        <img src="img/site.svg" alt="" class="office-card__item-icon">
+                                        <div class="office-card__item-content">
+                                            <a href="" class="body-text">www.auto3n.ru</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="office-card__btn more-btn more-btn--blue">
+                                    <span class="subtitle2">Показать на карте</span>
+                                    <svg width="12" height="12">
+                                        <use xlink:href="img/sprite.svg#arrowRight"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="where-buy-map">
+                    <div class="where-buy-map__top _flex-between">
+                        <div class="where-buy-map__title h4"></div>
+                        <button class="where-buy-map__close">
+                            <svg width="24" height="24">
+                                <use xlink:href="img/sprite.svg#burgerIcon2"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="map" id="map">
+
+                    </div>
+                    <script>
+                        ymaps.ready(init);
+                        let coord = [24.983735, 55.095805]
+                        let mapPoints = [{
+                                marker: "img/office-marker.svg",
+                                title: "TEXCO",
+                                city: "United Arab Emirates",
+                                street: "Jafza view 18-19 Downtown Jebel Ali, Dubai ",
+                                tel: "+971-(04)-5064590",
+                                email: "info@texco.ae",
+                                site: "www.texco.ae",
+                                cords: [24.983735, 55.095805],
+                            },
+                            {
+                                marker: "img/office-marker2.svg",
+                                title: "SP-Europe",
+                                city: "Польша",
+                                street: "02-495, Мазовецкое воеводство, Варшава, ул. Героев Варшавы, ном. 23, лок. 2",
+                                tel: "+48 222 565 324",
+                                email: "info@speurope.pl",
+                                site: "www.speautoparts.com",
+                                cords: [52.251430, 21.216096],
+                            },
+                            {
+                                marker: "img/office-marker3.svg",
+                                title: "AUTO3N",
+                                city: "Россия",
+                                street: "Россия Московская обл., Мытищинский р-он, МКАД 86 км, вл. 13а, стр. 1",
+                                tel: "+74952562200",
+                                email: "sale@auto3n.ru",
+                                site: "www.auto3n.ru",
+                                cords: [55.906895, 37.610817],
+                            },
+                        ]
+
+
+
+                        function init() {
+                            let myMap = new ymaps.Map("map", {
+                                center: coord,
+                                zoom: 12,
+                                controls: [],
+                            });
+
+                            let placeMarks = [
+
+                            ]
+
+                            // myMap.behaviors.disable('scrollZoom');
+
+                            mapPoints.forEach((el, index) => {
+                                let placeMark = new ymaps.Placemark(el.cords, {
+                                    balloonContentHeader: ``,
+                                    balloonContentBody: `
+                <div class="place-card">
+                    <div class="h5">${el.title}</div>
+                    <div class="office-card__items">
+                        <div class="office-card__item">
+                            <img src="img/marker.svg" alt="" class="office-card__item-icon">
+                            <div class="office-card__item-content">
+                                <span class="body-text">${el.city}</span>
+                                <span class="body-text">${el.street}</span>
+                            </div>
+                        </div>
+                        <div class="office-card__item">
+                            <img src="img/phone.svg" alt="" class="office-card__item-icon">
+                            <div class="office-card__item-content">
+                                <a href="tel:${el.tel}" class="subtitle1">${el.tel}</a>
+                            </div>
+                        </div>
+                        <div class="office-card__item">
+                            <img src="img/mail.svg" alt="" class="office-card__item-icon">
+                            <div class="office-card__item-content">
+                                <a href="mailto:${el.email}" class="body-text">${el.email}</a>
+                            </div>
+                        </div>
+                        <div class="office-card__item">
+                            <img src="img/site.svg" alt="" class="office-card__item-icon">
+                            <div class="office-card__item-content">
+                                <a href="" class="body-text">${el.site}</a>
                             </div>
                         </div>
                     </div>
+                </div>
+                `,
+                                    balloonContentFooter: '',
+                                    hintContent: '',
+                                }, {
+                                    iconLayout: 'default#image',
+                                    iconImageHref: el.marker,
+                                    iconImageSize: [72, 72],
+                                    iconImageOffset: [-36, -36],
+                                    hideIconOnBalloonOpen: false,
+                                });
+                                myMap.geoObjects.add(placeMark);
+                                placeMarks.push(placeMark)
+
+                                $(".office-card__btn").click(function() {
+                                    let cardId = +$(this).parents(".office-card").attr("data-id")
+                                    let cardTitle = $(this).parents(".office-card").attr("data-title")
+                                    if (index === cardId) {
+                                        myMap.setCenter(el.cords)
+                                    }
+
+                                    $(".where-buy-map__title").html(cardTitle)
+
+                                    if (window.innerWidth < 993) {
+                                        $(".where-buy-map").addClass("_open")
+                                        $("body").addClass("fixed-body")
+                                    }
+                                })
+
+                                $(".where-buy-map__close").click(function() {
+                                    $(".where-buy-map").removeClass("_open")
+                                    $("body").removeClass("fixed-body")
+                                })
+                            })
+
+
+
+
+
+                        }
+                    </script>
 
                 </div>
             </div>
-
         </main>
         <footer class="footer">
             <div class="container">
