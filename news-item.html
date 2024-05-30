@@ -2359,11 +2359,365 @@
         </div>
     </div>
 
+    <div class="modal partner-modal" id="partnerModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top _flex-between">
+                <div class="h4">
+                    Стать партнером
+                </div>
+                <button class="close-btn _close-modal">
+                    <svg width="24" height="24">
+                        <use xlink:href="img/sprite.svg#burgerIcon2"></use>
+                    </svg>
+                </button>
+            </div>
+            <form action="" class="partner-form">
+                <div class="partner-form__fields">
+                    <div class="fg">
+                        <label><span>*</span>Имя:</label>
+                        <input type="text" placeholder="Введите имя">
+                    </div>
+                    <div class="fg tel-input">
+                        <label><span>*</span>Номер телефона:</label>
+                        <input type="tel">
+                    </div>
+                    <div class="fg">
+                        <label><span>*</span>Почта:</label>
+                        <input type="email" placeholder="Введите почту">
+                    </div>
+                    <div class="fg">
+                        <label><span>*</span>Ссылка на сайт:</label>
+                        <input type="text" placeholder="Ссылка на сайт">
+                    </div>
+                    <div class="fg">
+                        <label>Ссылка на презентацию/каталог:</label>
+                        <input type="text" placeholder="Ссылка на презентацию/каталог">
+                    </div>
+                </div>
+                <div class="partner-form__hint">
+                    <div class="body-text3">
+                        *Поля обязательны для заполнения
+                    </div>
+                </div>
+                <div class="m-check">
+                    <input type="checkbox">
+                    <label>
+                        <span>Я принимаю условия "Политики конфиденциальности" и даю свое согласие на обработку персональных данных</span>
+                    </label>
+                </div>
+                <div class="partner-form__nav">
+                    <button class="partner-form__btn m-btn m-btn-blue">
+                        <span>Отправить</span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="modal provider-modal" id="providerModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top _flex-between">
+                <div class="h4">
+                    Стать поставщиком
+                </div>
+                <button class="close-btn _close-modal">
+                    <svg width="24" height="24">
+                        <use xlink:href="img/sprite.svg#burgerIcon2"></use>
+                    </svg>
+                </button>
+            </div>
+            <form class="provider-form">
+                <div class="provider-form__grid">
+                    <div class="provider-form__col">
+                        <div class="provider-form__fields">
+                            <div class="fg">
+                                <label><span>*</span>Имя:</label>
+                                <input type="text" placeholder="Введите имя">
+                            </div>
+                            <div class="fg tel-input">
+                                <label><span>*</span>Номер телефона:</label>
+                                <input type="tel">
+                            </div>
+                            <div class="fg">
+                                <label><span>*</span>Почта:</label>
+                                <input type="email" placeholder="Введите почту">
+                            </div>
+                            <div class="country-select">
+                                <label><span>*</span>Страна:</label>
+                                <div class="country-select__show">
+                                    <div class="country-select__current body-text2">
+                                        Выберите страну
+                                    </div>
+                                </div>
+                                <div class="country-select__dropdown">
+                                    <div class="filter-select__search">
+                                        <input type="text" placeholder="Поиск">
+                                        <img src="img/search-icon.svg" alt="">
+                                    </div>
+                                    <div class="country-select__items">
+                                        <div data-title="Все страны" class="country-item">
+
+                                            <span class="body-text">Все страны</span>
+                                        </div>
+
+                                        <div data-title="Алжир" class="country-item">
+
+                                            <img src="img/algeria.svg" alt="">
+
+                                            <span class="body-text">Алжир</span>
+                                        </div>
+
+                                        <div data-title="Албания" class="country-item">
+
+                                            <img src="img/albania.svg" alt="">
+
+                                            <span class="body-text">Албания</span>
+                                        </div>
+
+                                        <div data-title="Беларусь" class="country-item">
+
+                                            <img src="img/belarus.svg" alt="">
+
+                                            <span class="body-text">Беларусь</span>
+                                        </div>
+
+                                        <div data-title="Болгария" class="country-item">
+
+                                            <img src="img/bulgaria.svg" alt="">
+
+                                            <span class="body-text">Болгария</span>
+                                        </div>
+
+                                        <div data-title="Босния и Герцеговина" class="country-item">
+
+                                            <img src="img/bh.svg" alt="">
+
+                                            <span class="body-text">Босния и Герцеговина</span>
+                                        </div>
+
+                                        <div data-title="Германия" class="country-item">
+
+                                            <img src="img/ger.svg" alt="">
+
+                                            <span class="body-text">Германия</span>
+                                        </div>
+
+                                        <div data-title="Греция" class="country-item">
+
+                                            <img src="img/gre.svg" alt="">
+
+                                            <span class="body-text">Греция</span>
+                                        </div>
+
+                                        <div data-title="Казахстан" class="country-item">
+
+                                            <img src="img/kaz.svg" alt="">
+
+                                            <span class="body-text">Казахстан</span>
+                                        </div>
+
+                                        <div data-title="Кипр" class="country-item">
+
+                                            <img src="img/kip.svg" alt="">
+
+                                            <span class="body-text">Кипр</span>
+                                        </div>
+
+                                        <div data-title="Косово" class="country-item">
+
+                                            <img src="img/kos.svg" alt="">
+
+                                            <span class="body-text">Косово</span>
+                                        </div>
+
+                                        <div data-title="Ливия" class="country-item">
+
+                                            <img src="img/liv.svg" alt="">
+
+                                            <span class="body-text">Ливия</span>
+                                        </div>
+
+                                        <div data-title="Литва" class="country-item">
+
+                                            <img src="img/lit.svg" alt="">
+
+                                            <span class="body-text">Литва</span>
+                                        </div>
+
+                                        <div data-title="Македония" class="country-item">
+
+                                            <img src="img/mak.svg" alt="">
+
+                                            <span class="body-text">Македония</span>
+                                        </div>
+
+                                        <div data-title="Молдова" class="country-item">
+
+                                            <img src="img/mol.svg" alt="">
+
+                                            <span class="body-text">Молдова</span>
+                                        </div>
+
+                                        <div data-title="Польша" class="country-item">
+
+                                            <img src="img/pol.svg" alt="">
+
+                                            <span class="body-text">Польша</span>
+                                        </div>
+
+                                        <div data-title="Россия" class="country-item">
+
+                                            <img src="img/rus.svg" alt="">
+
+                                            <span class="body-text">Россия</span>
+                                        </div>
+
+                                        <div data-title="Сербия" class="country-item">
+
+                                            <img src="img/ser.svg" alt="">
+
+                                            <span class="body-text">Сербия</span>
+                                        </div>
+
+                                        <div data-title="Украина" class="country-item">
+
+                                            <img src="img/ukr.svg" alt="">
+
+                                            <span class="body-text">Украина</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="fg">
+                                <label><span>*</span>Ссылка на сайт:</label>
+                                <input type="text" placeholder="Ссылка на сайт">
+                            </div>
+                            <div class="fg">
+                                <label>Товарные категории:</label>
+                                <textarea placeholder="Введите товарные категории"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="provider-form__col">
+                        <div class="provider-form__fields">
+                            <div class="fg">
+                                <label>Производимые бренды:</label>
+                                <textarea placeholder="Введите производимые бренды"></textarea>
+                            </div>
+                            <div class="file-input__group">
+                                <label>Вложение для презентации:</label>
+                                <div class="file-input ">
+                                    <input type="file">
+                                    <div class="file-input__hint">
+                                        <div class="overline">
+                                            Перетащите сюда файл
+                                        </div>
+                                    </div>
+                                    <div class="file-input__title">
+                                        <div class="overline">
+                                            Файл должен быть в формате PDF, DOC или DOCX
+                                        </div>
+                                    </div>
+                                    <div class="file-input__wrap _flex-center">
+                                        <div class="file-btn">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.52634 1.55333C8.4575 1.48359 8.3755 1.42821 8.28509 1.39042C8.19468 1.35262 8.09767 1.33316 7.99967 1.33316C7.90168 1.33316 7.80467 1.35262 7.71426 1.39042C7.62385 1.42821 7.54184 1.48359 7.47301 1.55333L4.33301 4.66666L5.37967 5.74L7.25967 3.86V11.7067H8.73967V3.86L10.6197 5.74L11.6663 4.66666L8.52634 1.55333Z" />
+                                                <path d="M13.1863 10.22V13.1867H2.81301V10.22H1.33301V13.1867C1.33476 13.5786 1.49125 13.9541 1.76843 14.2312C2.0456 14.5084 2.42103 14.6649 2.81301 14.6667H13.1863C13.5783 14.6649 13.9537 14.5084 14.2309 14.2312C14.5081 13.9541 14.6646 13.5786 14.6663 13.1867V10.22H13.1863Z" />
+                                            </svg>
+                                            <span>Загрузите файл</span>
+                                        </div>
+                                        <div class="body-text3 black64-text">
+                                            или перетащите сюда
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="fg fg--comment">
+                                <label>Комментарий:</label>
+                                <textarea placeholder="Введите комментарий"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="provider-form__hint _mt16">
+                    <div class="body-text3 red-text">
+                        *Поля обязательны для заполнения
+                    </div>
+                </div>
+                <div class="provider-form__bottom _mt24 _flex-between">
+                    <div class="m-check">
+                        <input type="checkbox">
+                        <label>
+                            <span>Я принимаю условия "Политики конфиденциальности" и даю свое согласие на обработку персональных данных</span>
+                        </label>
+                    </div>
+                    <button class="provider-form__btn m-btn m-btn-blue">
+                        <span>Отправить</span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="modal success-modal" id="successModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top _flex-between">
+                <button class="close-btn _close-modal">
+                    <svg width="24" height="24">
+                        <use xlink:href="img/sprite.svg#burgerIcon2"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="success-modal__inner">
+                <img src="img/check2.svg" alt="" class="success-modal__icon">
+                <div class="success-modal__text">
+                    <div class="h5">
+                        Ваша заявка отправлена!
+                    </div>
+                    <div class="body-text">
+                        Наш специалист свяжется с Вами в ближайшее время.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cookie-modal _active">
+        <div class="container">
+            <div class="cookie-modal__inner">
+                <div class="cookie-modal__content">
+                    <div class="cookie-modal__desc body-text2">
+                        Этот сайт использует файлы cookie.
+                        Файлы cookie необходимы для правильной работы веб-сайта. Мы используем файлы cookie для обеспечения безопасности ввода и хранения данных на веб-сайте, для сбора статистики и оптимизации работы веб-сайта. Кроме того, мы используем файлы cookie для обработки персональных данных, например, IP-адреса. Нажмите «Согласен», если вы полностью согласны с этим. Если вы не согласны с интеграцией отслеживающих файлов cookie, нажмите «Отклонить». Дополнительную информацию можно найти в Политике конфиденциальности
+                    </div>
+                </div>
+                <div class="cookie-modal__nav">
+                    <button class="cookie-modal__btn m-btn m-btn-blue">
+                        <span>Согласен</span>
+                    </button>
+                    <button class="cookie-modal__btn m-btn m-btn-blue-outline">
+                        <span>Отклонить</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/gsap.min.js"></script>
     <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/MotionPathPlugin.js"></script>
+    <script src="js/DrawSVGPlugin3.min.js"></script>
     <script src="js/nouislider.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/fancybox.umd.js"></script>
